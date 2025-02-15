@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6E78A86B-37EE-4413-9A8C-26673A2D430B}</ProjectGuid>
+    <ProjectGuid>{312FA846-A19F-4D48-81BD-662D9FD99235}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>boba</RootNamespace>
-    <AssemblyName>boba</AssemblyName>
+    <RootNamespace>Ali</RootNamespace>
+    <AssemblyName>Ali</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Array.cs" />
-    <Compile Include="Interface\ISort.cs" />
-    <Compile Include="Models\Bilder.cs" />
-    <Compile Include="Models\Human.cs" />
-    <Compile Include="Models\Pilot.cs" />
-    <Compile Include="Models\Sailor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

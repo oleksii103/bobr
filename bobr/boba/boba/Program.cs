@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -73,6 +74,15 @@ namespace boba //Fett
             PlantWorkers.ForEach(worker => Console.WriteLine($"Name: {worker.Name} Salary: {worker.Pahat(pahat)}"));
             sum = PlantWorkers.Sum((worker) => { return worker.Pahat(pahat);  });
             Console.WriteLine(sum);
+            Array Nani = new Array
+            {
+                HumanList = PlantWorkers
+                
+            };
+            Nani.SortASC();
+            Nani.SortDESC();
+            Nani.SortByParam(true);
+            Nani.HumanList.ForEach(human => Console.WriteLine(human));
         }
     }
 }

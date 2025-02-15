@@ -6,10 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace boba.Models
+namespace boba/*fett*/.Models
 {
     internal class Human
     {
+        public override string ToString()
+        {
+            return $"Name: {Name}, Rab Number: {RabNumber}";
+        }
         public string Name { get; set; }
         public int Age { get; set; }
         public DateTime BDay { get; set;}

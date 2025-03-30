@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twix", "Twix\Twix.csproj", "{2CF46EE4-7D14-4664-898A-D0CB5F0EE857}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB09C9E6-7E4D-48CC-9961-A97F00028B8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CF46EE4-7D14-4664-898A-D0CB5F0EE857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF46EE4-7D14-4664-898A-D0CB5F0EE857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF46EE4-7D14-4664-898A-D0CB5F0EE857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF46EE4-7D14-4664-898A-D0CB5F0EE857}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

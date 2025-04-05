@@ -1,0 +1,5 @@
+﻿Language: English-Ukrainian
+hello:прив?т,в?таю
+Language: English-Ukrainian
+Language: English-Ukrainian
+car:авт?вка

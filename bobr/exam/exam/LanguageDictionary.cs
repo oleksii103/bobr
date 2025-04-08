@@ -9,8 +9,7 @@ namespace exam
     {
         public string Name { get; private set; }
         public Dictionary<string, List<string>> Words { get; private set; }
-        public string DirectoryPath => "DictionaryStorage";
-       
+    
         public string FilePath => @"D:\It Step Academy\c#\bobr\exam\exam\Dictionary.txt";
 
         public LanguageDictionary(string name)

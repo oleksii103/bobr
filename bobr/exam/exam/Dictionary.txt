@@ -3,3 +3,6 @@ hello:прив?т,в?таю
 Language: English-Ukrainian
 Language: English-Ukrainian
 car:авт?вка
+Language: English-Ukrainian
+car:авт?вка
+hello:дайБоже, добридень

@@ -1,4 +1,4 @@
-namespace HW_15
+namespace HW16
 {
     internal static class Program
     {
